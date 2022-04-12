@@ -48,10 +48,10 @@ pip install -r requirements.txt
 - Run the data preparation script `prepare_datasets.py` from the example directory 
   - specify a dataset name with `--dataset` or `-d` option  
   - use `bike` if you want to get data for `data_drift` and `regression_performance`
-  - use `kddcup99` if you want to get data for `classification_performance`
+  - use `kdd` if you want to get data for `classification_performance`
   - the script will use `bike` as a default
 ```
-prepare_datasets.py --dataset kddcup99
+python prepare_datasets.py --dataset kdd
 ```
 - After the script is executed successfully, the three files should appear in the directory: 
   - `config.yaml` - a config for the metrics service
